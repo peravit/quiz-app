@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔑 Quiz App: Investor Personality</h1>
+    <div id="quiz-container">
+      <div id="question-container">
+        <p id="question">Question will appear here</p>
+        <div id="options"></div>
+      </div>
+      <button id="next-btn" onclick="nextQuestion()">Next</button>
+    </div>
+    <div id="result-container" style="display: none;">
+      <h2>Your Result:</h2>
+      <p id="result-text"></p>
+      <button onclick="restartQuiz()">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
